@@ -233,23 +233,23 @@ btn:hover {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend" ;
+        content: "Frontend." ;
     }
     21%,
     40% {
-        content: "Backend";
+        content: "Backend.";
     }
     41%,
     60% {
-        content: "JavaScript";
+        content: "JavaScript.";
     }
     61%,
     80% {
-        content: "Python";
+        content: "Python.";
     }
     81%,
     100% {
-        content: "Java";
+        content: "Java.";
     }
 }
 
