@@ -209,7 +209,7 @@ btn:hover {
     position: relative;
 }
 .text-animation span::before {
-    content: "Desenvolvedor";
+    content: "Sou Desenvolvedor";
     color: var(--main-color);
     animation: words 20s infinite;
 }
