@@ -370,3 +370,10 @@ btn:hover {
     margin: 0 0 25px;
     font-weight: 500;
 }
+
+.timeline-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
