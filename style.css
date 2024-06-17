@@ -354,11 +354,15 @@ btn:hover {
 .timeline-content {
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
-    padding: 30px 50px;
+    padding: 30px 40px;
     border-radius: 4rem;
     box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
     transition: 0.3s ease-in-out;
+}
+
+#time-grad-ads {
+    padding: 30px 30px;
 }
 
 .timeline-content:hover{
@@ -370,7 +374,6 @@ btn:hover {
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-    text-transform: capitalize;
     font-weight: 500;
 }
 
