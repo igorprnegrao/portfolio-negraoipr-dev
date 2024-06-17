@@ -367,7 +367,7 @@ btn:hover {
 .timeline-content h3 {
     font-size: 20px;
     color: white;
-    margin: 0 0 25px;
+    margin: 0 0 10px;
     font-weight: 500;
 }
 
@@ -376,4 +376,15 @@ btn:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--main-color);
 }
