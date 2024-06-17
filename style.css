@@ -378,13 +378,14 @@ btn:hover {
     line-height: 22px;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 15px;
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
-
 ::-webkit-scrollbar-track {
     background-color: var(--main-color);
+    width: 50px;
 }
+
