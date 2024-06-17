@@ -286,6 +286,7 @@ btn:hover {
 }
 
 .education {
+    min-height: 100vh;
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
@@ -303,12 +304,12 @@ btn:hover {
 }
 
 .timeline-items::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 5px;
     height: 100%;
     background-color: var(--main-color);
-    left: calc(50% - 1px);
+    left: calc(50%);
 }
 
 .timeline-item {
@@ -368,13 +369,14 @@ btn:hover {
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
+    text-transform: capitalize;
     font-weight: 500;
 }
 
 .timeline-content p{
     color: white;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 22px;
 }
 
