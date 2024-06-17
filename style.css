@@ -308,6 +308,7 @@ btn:hover {
     position: absolute;
     width: 5px;
     height: 100%;
+    border-radius: 5px;
     background-color: var(--main-color);
     left: calc(50%);
 }
